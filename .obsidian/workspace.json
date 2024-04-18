@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "73f149b41451e0fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "a559b3e72d999fd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baf91a754ec78daf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Types of Testing/Security Testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a79a231626032e5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toolss/Apache JMeter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "848faec2efb3ea85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "to do.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1f0205f998fb904e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How to create test cases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7df91449d8f9f9c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Toolss/Apache JMeter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ed179a3ec8b8caeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e1f73a260446215",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "190a28fd7f521b95",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1fbbee0e837849ad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "p0",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "af11f21d407f926b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "998f6975230e8b1f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5110321044922
+  },
+  "right": {
+    "id": "c776cee2254161a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b9a0dd0b8d63d73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9e9c74dbc9591c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Types of Testing/Security Testing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5fc83fb0090c513",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Types of Testing/Security Testing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c18b110216447a27",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "478a78448f747fdb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Types of Testing/Security Testing.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "baf91a754ec78daf",
+  "lastOpenFiles": [
+    "to do.md",
+    "Types of Testing/Security Testing.md",
+    "Types of Testing/Scalability Testing.md",
+    "Types of Testing/Volume Testing.md",
+    "Types of Testing/Load Testing.md",
+    "Types of Testing/Performance Testing.md",
+    "Types of Testing/Unit Testing.md",
+    "Types of Testing/Acceptance Testing.md",
+    "Types of Testing/Regression Testing.md",
+    "Types of Testing/Integration Testing.md",
+    "Types of Testing/Smoke vs Sanity.md",
+    "Manual Software Testing Series/09 Bug Life Cycle.md",
+    "Manual Software Testing Series/01 Software, types, testing, quality, bugs.md",
+    "Manual Software Testing Series/10 Manual Testing Project.md",
+    "tips.md",
+    "Toolss/Apache JMeter.md",
+    "How to create test cases.md",
+    "Toolss/PostMan.md",
+    "Manual Software Testing Series/08 STLC Documents.md",
+    "random links.md",
+    "Manual Software Testing Series/07 STLC (Software Test Life Cycle).md",
+    "Manual Software Testing Series/06 Test Design Techniques.md",
+    "Manual Software Testing Series/05 Software Testing Terminology.md",
+    "Manual Software Testing Series/04 System Testing.md",
+    "Manual Software Testing Series/03 Static and Dynamic Testing, QA, QC, QE.md",
+    "Manual Software Testing Series/02 SDLC, Models - advantages and disadvantages.md",
+    "Manual Software Testing Series/Images/test metrics 2.png",
+    "Manual Software Testing Series/Images/test metrics 1.png",
+    "Manual Software Testing Series/Images/test metrics.png",
+    "Manual Software Testing Series/Images/bug life cycle.png",
+    "Manual Software Testing Series/Images/severity and priority example 2.png",
+    "Manual Software Testing Series/Images/severity and priority example.png",
+    "Manual Software Testing Series/Images/Defect Classification.png",
+    "Manual Software Testing Series/Images/Requirement Traceability Matrix (RTM).png",
+    "Manual Software Testing Series/Images/Test case template.png",
+    "Manual Software Testing Series/Images/Test Suite.png",
+    "API Testing/Postman/Image",
+    "API Testing/Postman",
+    "API Testing",
+    "Images",
+    "Toolss",
+    "Types of Testing",
+    "Aldrin Sy/images",
+    "Aldrin Sy",
+    "Manual Software Testing Series",
+    "Manual Software Testing Series/Images"
+  ]
+}

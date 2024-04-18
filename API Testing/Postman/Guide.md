@@ -1,0 +1,15 @@
+- run all the requests at the same time by clicking the 3 dots on collection then click "run collection". It can also loop/iterate the request to test rate limiting.
+- monitor collection by clicking 3 dots on collection.
+- you can create folder
+- you can move request to different collection
+- you can move folder from different folder or collection
+- you can use variable for shortcut
+	- can create variables at levels of global, collection, environment, data, and local 
+	- if you have the same name at multiple levels this is priority:
+		- local
+		- data
+		- environment
+		- collection
+		-  global
+- you can add test script from collection, folder, request.
+- 

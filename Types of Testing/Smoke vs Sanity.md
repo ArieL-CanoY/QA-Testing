@@ -1,0 +1,11 @@
+| Category | Smoke Testing                                                                                                        | Sanity Testing                                                                                                         |     |
+| -------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | --- |
+| What     | Smoke testing exercises the entire system from end to end                                                            | Sanity testing exercises only the particular component of the entire system                                            |     |
+| When     | Smoke Testing is performed to make sure that critical functionalities of the application are working fine            | Sanity Testing is performed to check that new functionalities /bugs have been fixed                                    |     |
+| Why      | The objective of the testing is to verify the stability of the system in order to proceed with more rigorous testing | The objective of the testing is to verify the rationality of the system in order to proceed with more rigorous testing |     |
+| Scripted | Smoke testing is usually documented and scripted                                                                     | Sanity testing is not documented and unscripted                                                                        |     |
+| Subset   | Smoke testing is a subset of Acceptance Testing                                                                      | Sanity testing is a subset of Regression testing                                                                       |     |
+| Analogy  | Smoke testing is like General Health check-up                                                                        | Sanity testing is like Specialized Health check-up                                                                     |     |
+
+
+  
