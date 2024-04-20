@@ -45,7 +45,7 @@
 # Exploratory Testing
 - tester have to explore the application, understand completely and test it.
 - understand the application, identify all the possible scenarios, document it then use it for testing.
-- done when the application is ready but there is not requirement.
+- done when the application is ready but there is no requirement.
 - done by test engineer 
 	- this depends on the experience of tester
 

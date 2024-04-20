@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Types of Testing/Security Testing.md",
+                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "p0",
+                "query": "adhoc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Types of Testing/Security Testing.md",
+                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Types of Testing/Security Testing.md",
+                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types of Testing/Security Testing.md"
+                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md"
               }
             }
           }
@@ -205,7 +205,18 @@
   },
   "active": "baf91a754ec78daf",
   "lastOpenFiles": [
+    "Aldrin Sy/Defect Life Cycle.md",
+    "Aldrin Sy/images/defect life cycle.png",
+    "Manual Software Testing Series/09 Bug Life Cycle.md",
+    "Toolss/Apache JMeter.md",
     "to do.md",
+    "How to create test cases.md",
+    "Aldrin Sy/Different types of testing.md",
+    "Manual Software Testing Series/05 Software Testing Terminology.md",
+    "Manual Software Testing Series/08 STLC Documents.md",
+    "Manual Software Testing Series/07 STLC (Software Test Life Cycle).md",
+    "Manual Software Testing Series/06 Test Design Techniques.md",
+    "Manual Software Testing Series/04 System Testing.md",
     "Types of Testing/Security Testing.md",
     "Types of Testing/Scalability Testing.md",
     "Types of Testing/Volume Testing.md",
@@ -216,21 +227,10 @@
     "Types of Testing/Regression Testing.md",
     "Types of Testing/Integration Testing.md",
     "Types of Testing/Smoke vs Sanity.md",
-    "Manual Software Testing Series/09 Bug Life Cycle.md",
     "Manual Software Testing Series/01 Software, types, testing, quality, bugs.md",
     "Manual Software Testing Series/10 Manual Testing Project.md",
     "tips.md",
-    "Toolss/Apache JMeter.md",
-    "How to create test cases.md",
     "Toolss/PostMan.md",
-    "Manual Software Testing Series/08 STLC Documents.md",
-    "random links.md",
-    "Manual Software Testing Series/07 STLC (Software Test Life Cycle).md",
-    "Manual Software Testing Series/06 Test Design Techniques.md",
-    "Manual Software Testing Series/05 Software Testing Terminology.md",
-    "Manual Software Testing Series/04 System Testing.md",
-    "Manual Software Testing Series/03 Static and Dynamic Testing, QA, QC, QE.md",
-    "Manual Software Testing Series/02 SDLC, Models - advantages and disadvantages.md",
     "Manual Software Testing Series/Images/test metrics 2.png",
     "Manual Software Testing Series/Images/test metrics 1.png",
     "Manual Software Testing Series/Images/test metrics.png",
@@ -240,7 +240,6 @@
     "Manual Software Testing Series/Images/Defect Classification.png",
     "Manual Software Testing Series/Images/Requirement Traceability Matrix (RTM).png",
     "Manual Software Testing Series/Images/Test case template.png",
-    "Manual Software Testing Series/Images/Test Suite.png",
     "API Testing/Postman/Image",
     "API Testing/Postman",
     "API Testing",

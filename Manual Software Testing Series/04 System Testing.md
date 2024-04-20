@@ -22,7 +22,7 @@ Examples:
 
 
 ## Usability Testing
-- During the testing validates application provided context sensitive help or not to the user
+- During the testing, it validates application provided context sensitive help or not to the user
 - Checks how easily the end users are able to understand and operate the application
 
 
@@ -112,7 +112,7 @@ Examples:
 	- simple or not to install
 	- uninstallation process if all related files are deleted
 - Sanitation/Garbage Testing
-	- if any application provides extra features//functionality then we consider them as bug
+	- if any application provides extra features/functionality then we consider them as bug
 
 
 
