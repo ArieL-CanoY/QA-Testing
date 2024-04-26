@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md",
+                "file": "API Testing/API Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,8 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0ef1c39e7be8b40f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API Testing/Postman/Test Script.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -141,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md",
+                "file": "API Testing/Postman/Test Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md",
+                "file": "API Testing/Postman/Test Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aldrin Sy/STLC (Software Test Life Cycle).md"
+                "file": "API Testing/Postman/Test Script.md"
               }
             }
           }
@@ -203,34 +216,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "baf91a754ec78daf",
+  "active": "190a28fd7f521b95",
   "lastOpenFiles": [
-    "Aldrin Sy/Defect Life Cycle.md",
-    "Aldrin Sy/images/defect life cycle.png",
+    "API Testing/Postman/Test Tab.md",
+    "API Testing/Postman/Test Script.md",
+    "API Testing/API Fundamentals.md",
+    "API Testing/Websites for API.md",
+    "API Testing/Postman/Debug.md",
+    "API Testing/Postman/Environment.md",
+    "API Testing/Postman/Guide.md",
+    "API Testing/Postman/Set variable from script.md",
+    "API Testing/Postman/Postman Fundamentals.md",
+    "API Testing/Postman/Image/postman different console debug.png",
+    "Toolss/PostMan.md",
     "Manual Software Testing Series/09 Bug Life Cycle.md",
+    "Manual Software Testing Series/08 STLC Documents.md",
+    "Aldrin Sy/Defect Life Cycle.md",
+    "Aldrin Sy/STLC (Software Test Life Cycle).md",
+    "Manual Software Testing Series/04 System Testing.md",
+    "Aldrin Sy/Different types of testing.md",
+    "Aldrin Sy/images/defect life cycle.png",
     "Toolss/Apache JMeter.md",
     "to do.md",
     "How to create test cases.md",
-    "Aldrin Sy/Different types of testing.md",
     "Manual Software Testing Series/05 Software Testing Terminology.md",
-    "Manual Software Testing Series/08 STLC Documents.md",
     "Manual Software Testing Series/07 STLC (Software Test Life Cycle).md",
     "Manual Software Testing Series/06 Test Design Techniques.md",
-    "Manual Software Testing Series/04 System Testing.md",
     "Types of Testing/Security Testing.md",
     "Types of Testing/Scalability Testing.md",
     "Types of Testing/Volume Testing.md",
     "Types of Testing/Load Testing.md",
-    "Types of Testing/Performance Testing.md",
-    "Types of Testing/Unit Testing.md",
-    "Types of Testing/Acceptance Testing.md",
-    "Types of Testing/Regression Testing.md",
-    "Types of Testing/Integration Testing.md",
-    "Types of Testing/Smoke vs Sanity.md",
-    "Manual Software Testing Series/01 Software, types, testing, quality, bugs.md",
-    "Manual Software Testing Series/10 Manual Testing Project.md",
-    "tips.md",
-    "Toolss/PostMan.md",
     "Manual Software Testing Series/Images/test metrics 2.png",
     "Manual Software Testing Series/Images/test metrics 1.png",
     "Manual Software Testing Series/Images/test metrics.png",
@@ -239,7 +254,6 @@
     "Manual Software Testing Series/Images/severity and priority example.png",
     "Manual Software Testing Series/Images/Defect Classification.png",
     "Manual Software Testing Series/Images/Requirement Traceability Matrix (RTM).png",
-    "Manual Software Testing Series/Images/Test case template.png",
     "API Testing/Postman/Image",
     "API Testing/Postman",
     "API Testing",

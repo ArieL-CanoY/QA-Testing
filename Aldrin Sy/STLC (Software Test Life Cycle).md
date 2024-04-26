@@ -14,5 +14,5 @@
 		- all test cases that are created should be executed 
 		
 6. Test Closure
-		- show the result of the test like 20% of test cases are failed and 80% is pased.
+		- show the result of the test like 20% of test cases are failed and 80% is passed.
 		
