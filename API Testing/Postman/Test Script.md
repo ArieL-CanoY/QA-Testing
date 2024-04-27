@@ -1,11 +1,18 @@
-pre-request script - execute before the request is send.
-tests - execute after the request is sent.
+# Definition
+```python
+- execute after the request is sent or after getting a response.
+```
 
+# Note
 ```python
 var - can reassign the value of a variable once it is declared.
 
 const - cannot reassign the value of a variable once it is declared, it will throw an error.
+
+you can write code without ending with semicolon ";"
+
 ```
+
 
 ### eql vs equal
 ```python
@@ -30,23 +37,39 @@ console.warn()
 console.error()
 ```
 
-
+# Set, Get, Unset
 ### setting a variable
 ```javascript
-//levels - environment, globals, localVariables, variables
+//levels - environment, globals, collectionVariables, variables
 let varName = pm.<levels>.set('varname', 'value')
 console.log(varName)
 ```
 
 ###  getting a variable
 ```javascript
-//levels - environment, globals, localVariables, variables
-let varName = pm.<levels>.set('varname')
-console.log(varName)
+//levels - environment, globals, collectionVariables, variables
+let varName = pm.<levels>.get('varname');
+console.log(varName);
+```
+
+
+###  unsetting a variable
+```javascript
+//levels - environment, globals, collectionVariables, variables
+pm.<levels>.unset('varname');
+console.log(varName);
+```
+
+# Function
+### normal function 
+```javascript
+pm.test("Testing title", function() {
+	//assertion here
+});
 ```
 
 ### arrow function 
-```python
+```javascript
 pm.test("Testing title", ()=> {
 	//assertion here
 });
@@ -68,7 +91,7 @@ if (pm.response.to.have.status(200))
 
 
 defines an arrow function test case with description of "Status code is 200" and expecting to have response status code of 200
-```python
+```javascript
 pm.test("Status code is 200", ()=>{
     pm.response.to.have.status(200)
 })
@@ -76,7 +99,7 @@ pm.test("Status code is 200", ()=>{
 
 
 test the response status code to be one in the array
-```python
+```javascript
 pm.test("Status code is 200", ()=>{
     pm.expect(pm.response.code).to.be.oneOf([200,201,202])
 })
@@ -87,12 +110,12 @@ pm.test("Status code is 200", ()=>{
 # Validate Headers
 
 check if specific header is present in the response
-```python
+```javascript
  pm.response.to.have.header("Content-Type");
 ```
 
 check the value of specific header
-```python
+```javascript
 pm.expect(pm.response.headers.get("Content-Type")).to.equal("application/json")
 ```
 
@@ -101,14 +124,14 @@ pm.expect(pm.response.headers.get("Content-Type")).to.equal("application/json")
 # Validate Cookies
 
 check if the specific cookie is present in the response
-```python
+```javascript
 pm.test("Response has a cookie set named session", ()=> {
     pm.expect(pm.cookies.has("session")).to.be.true;
 });
 ```
 
 check the value of specific cookie 
-```python
+```javascript
 pm.test("response cookie named oai-did has a value of 57fe87cb-886a-4d0e-bca0-de1369a2f742", ()=> {
     pm.expect(pm.cookies.get("oai-did")).to.equals("57fe87cb-886a-4d0e-bca0-de1369a2f742");
 });
@@ -119,8 +142,8 @@ pm.test("response cookie named oai-did has a value of 57fe87cb-886a-4d0e-bca0-de
 # Validate Response Time
 
 #### Below or less than
-```python
-# note that the value is in milliseconds
+```javascript
+// note that the value is in milliseconds
 pm.test("Response time is less than 1000ms", ()=> {
     pm.expect(pm.response.responseTime).to.below(1000);
 	#or
@@ -129,8 +152,8 @@ pm.test("Response time is less than 1000ms", ()=> {
 ```
 
 ### Above or greater than
-```python
-# note that the value is in milliseconds
+```javascript
+// note that the value is in milliseconds
 pm.test("Response time is less than 1000ms", ()=> {
     pm.expect(pm.response.responseTime).to.above(1000);
 	#or
@@ -140,7 +163,7 @@ pm.test("Response time is less than 1000ms", ()=> {
 
 
 ### Within or between
-```python
+```javascript
 pm.test("Response time is within 200ms to 300ms", ()=> {
     pm.expect(pm.response.responseTime).to.be.within(200, 300);
 });
@@ -155,8 +178,8 @@ pm.test("Response time is within 200ms to 300ms", ()=> {
 
 ### Validating JSON data types 
 
-```python
-# declare a variable that will capture the json response 
+```javascript
+// declare a variable that will capture the json response 
 const jsonData = pm.response.json();
 
 pm.test("JSON data type testing", ()=> {
@@ -171,7 +194,7 @@ pm.test("JSON data type testing", ()=> {
 
 
 ### Validating JSON data values and include
-```python
+```javascript
 var jsonData = pm.response.json();
 
 pm.test("JSON data values testing", ()=> {
@@ -189,7 +212,7 @@ pm.test("JSON data values testing", ()=> {
 
 
 ### Validating JSON schema
-```python
+```javascript
 //tv4 is like pm, built in class, but jsonData and schema should specify their value
 
 var jsonData = pm.response.json();

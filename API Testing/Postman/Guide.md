@@ -10,6 +10,6 @@
 		- data
 		- environment
 		- collection
-		-  global
+		- global
 - you can add test script from collection, folder, request.
 - 
