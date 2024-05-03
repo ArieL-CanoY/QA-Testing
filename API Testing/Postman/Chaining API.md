@@ -29,9 +29,29 @@ function GenerateNumber(length)
 
 const randomVal = GenerateNumber(10);
 console.log(randomVal)
+
+
+  
+// set it to the globals level with variable called "name"
+pm.globals.set("name", randomVal);
+
+
+In the body section of the request, change the value of json with double quote like this:
+{
+	"name": "{{name}}"
+}
+
 ```
 
+### Shortcut random
+```javascript
+// Math.random() produce 0.xxxxx to 1.xxxxxxx. it will convert to base 36 (toString(36)) which has 0-9 and a-z. and the substring will return from (1 or 0).(a7s8f7a56ds - arbitrary) to a7s8f7a56ds only
 
+const myvar = Math.random().toString(36).substring(2);
+console.log(myvar)
+
+
+```
 
 
 

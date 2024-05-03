@@ -63,18 +63,24 @@ https://www.mywebsite.com/article/blog
 ```python
 >> GET
 	- retrieve resource from the database
+	- response code - 200 OK
 
 >> POST
 	- create resource on the database
+	- response code - 201 Created
 
 >> PUT
 	- update existing resource on database, should specify all the information, if partial, use PATCH request.
+	- response code - 
+
 
 >> PATCH
 	- update partial existing resource on database
+	- response code - 204 No Content
 
 >> DELETE 
 	- delete existing resource from database
+	- response code - 204 No Content
 
 ```
 
