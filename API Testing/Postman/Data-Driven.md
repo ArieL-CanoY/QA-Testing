@@ -34,7 +34,7 @@ body section of request:
 
 # Run the collection of request
 ```python
-1. click the kebabr (...) of the collection
+1. click the horizontal kebab (...) of the collection
 2. click run collection
 3. select the csv or json file
 4. check the number of data, if the last data is null or empty string, subtract 1 to iteration number

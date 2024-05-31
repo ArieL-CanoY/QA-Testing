@@ -75,7 +75,39 @@ pm.test("Testing title", ()=> {
 });
 ```
 
-# Assertions
+# Assertions or Validations
+
+### Summary
+```javascript
+// request method
+if (pm.request.method === "GET")
+
+// response status
+if (pm.response.to.have.status(200))
+
+// headers
+	// have headers
+	pm.response.to.have.header("Content-Type");
+
+	// value of headers
+	pm.expect(pm.response.headers.get("Content-Type")).to.equal("application/json")
+
+
+// cookie
+	// has cookie name
+	pm.expect(pm.cookies.has("session")).to.be.true;
+
+	// cookie value
+    pm.expect(pm.cookies.get("oai-did")).to.equals("57fe87cb-886a-4d0e-bca0-de1369a2f742");
+
+
+// response time
+    pm.expect(pm.response.responseTime).to.below(1000);
+	//or
+    pm.expect(pm.response.responseTime).to.lessThan(1000);
+```
+
+
 
 
 ### check the request method used 
@@ -146,7 +178,7 @@ pm.test("response cookie named oai-did has a value of 57fe87cb-886a-4d0e-bca0-de
 // note that the value is in milliseconds
 pm.test("Response time is less than 1000ms", ()=> {
     pm.expect(pm.response.responseTime).to.below(1000);
-	#or
+	//or
     pm.expect(pm.response.responseTime).to.lessThan(1000);
 });
 ```
@@ -156,7 +188,7 @@ pm.test("Response time is less than 1000ms", ()=> {
 // note that the value is in milliseconds
 pm.test("Response time is less than 1000ms", ()=> {
     pm.expect(pm.response.responseTime).to.above(1000);
-	#or
+	//or
     pm.expect(pm.response.responseTime).to.greaterThan(1000);
 });
 ```

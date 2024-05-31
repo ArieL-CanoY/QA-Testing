@@ -76,6 +76,20 @@ https://www.mywebsite.com/article/blog
 	- XML based interface to describe the details and how a webservice should used.
 	- This is like a documentation on how to an API but only the XML are shown and no description of text.
 	- If the service consumer and provider knew each other, they can directly communicate with the WSDL.
+	- We can say that it is an end point where the service is running.
+	- Defining it would require the following:
+		- type
+			- message
+		- porttype
+			- operation
+			- input
+			- output
+		- binding
+		- service
+			- port
+
+
+			
 
 
 
@@ -87,6 +101,23 @@ https://www.mywebsite.com/article/blog
 	- 
 
 
+```
+
+
+# WSDL message part
+
+### Input message
+```xml
+<message name=EmployNameRequest>
+	<part name="EmployID" type="xsd:number"/>
+</message>
+```
+
+### Output message
+```xml
+<message name=EmployNameResponse>
+	<part name="EmployName" type="xsd:string"/>
+</message>
 ```
 
 
