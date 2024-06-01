@@ -1,5 +1,12 @@
 
 
+
+# No Auth
+```python
+- Postman wont send authorization details with a request unless you specify an auth type. @Postman
+```
+
+
 # Basic Auth
 ```python
 >> Basic Auth
@@ -19,7 +26,6 @@ Authorization: Basic <credentials_here(username:password) - plaintext or base64 
 
 # Digest Auth
 ```python
->> Digest Auth
 	- With Digest auth, the client sends a first request to the API, and the server responds with a few details, including a number that can be used only once (a _nonce_), a realm value, and a `401` unauthorized response. You then send back an encrypted array of data including a username and password combined with the data received from the server in the first request. The server uses the passed data to generate an encrypted string and compares it against what you sent to authenticate your request. @Postman
 	- just like Basic Auth but more secured by hashing and encrypting the value of username and password when sending over the network.
 
@@ -38,9 +44,9 @@ for more details, watch this on YT: https://www.youtube.com/watch?v=MKQQ0BSyZ6s
 
 # Bearer Token
 ```python
->> Bearer Token
-	- Bearer tokens enable requests to authenticate using an access key, such as a JSON Web Token (JWT). The token is a text string, included in the request header. In the request "Authorization" tab, select "Bearer Token" from the "Type" dropdown list. In the "Token" field, enter your API key value. For added security, store it in a variable and reference the variable by name. @Postman
+	- Bearer tokens enable requests to authenticate using an access key, such as a JSON Web Token (JWT). The token is a text string, included in the request header. 
 	- just like token in Github - ghp_klasdf89a98asas9df0
+
 
 
 
@@ -49,7 +55,12 @@ for more details, watch this on YT: https://www.youtube.com/watch?v=MKQQ0BSyZ6s
 
 
 
+# API Key
+```python
+	- With API key auth, you send a key-value pair to the API either in the request headers or query parameters.
 
+
+```
 
 
 

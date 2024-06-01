@@ -133,14 +133,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API Testing/Postman/Import Documentation.md",
+                "file": "Manual Software Testing Series/08 STLC Documents.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1607f591149fadf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Manual Software Testing Series/08 STLC Documents.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -169,7 +181,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "REST",
+                "query": "severity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -214,7 +226,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API Testing/Postman/Import Documentation.md",
+                "file": "API Testing/Postman/Authentications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +243,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API Testing/Postman/Import Documentation.md",
+                "file": "API Testing/Postman/Authentications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API Testing/Postman/Import Documentation.md"
+                "file": "API Testing/Postman/Authentications.md"
               }
             }
           }
@@ -276,21 +288,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "515cd7b3f47323b4",
+  "active": "085836dd01c96e79",
   "lastOpenFiles": [
+    "Manual Software Testing Series/08 STLC Documents.md",
     "API Testing/Postman/Authentications.md",
+    "API Testing/Swagger.md",
+    "Aldrin Sy/Test Cases.md",
+    "API Testing/Postman/Guide.md",
     "API Testing/Postman/Import Documentation.md",
     "API Testing/Postman/Data-Driven.md",
     "API Testing/Postman/Test Script.md",
     "API Testing/Postman/Set variable from script.md",
     "API Testing/Postman/Pre-request Script.md",
-    "API Testing/Swagger.md",
     "API Testing/Postman/Mock Server.md",
     "API Testing/API Fundamentals.md",
     "API Testing/JavaScript Basic.md",
     "API Testing/Methodology.md",
     "API Testing/Websites for API.md",
-    "API Testing/Postman/Guide.md",
     "to do.md",
     "How to create test cases.md",
     "Toolss/Apache JMeter.md",
@@ -304,8 +318,6 @@
     "API Testing/Postman/Images/postman script execution flow.png",
     "API Testing/Postman/Images/postman different console debug.png",
     "Toolss/PostMan.md",
-    "Manual Software Testing Series/09 Bug Life Cycle.md",
-    "Manual Software Testing Series/08 STLC Documents.md",
     "Aldrin Sy/images/defect life cycle.png",
     "Manual Software Testing Series/Images/test metrics 2.png",
     "Manual Software Testing Series/Images/test metrics 1.png",
